@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Basic template</title>
+</head>
+<body>
+    <script type="text/javascript">
+var netvalue = prompt("What is the net value?");
+var tax=0.19
+var grossvalue=netvalue/(1-tax)
+var taxamount=grossvalue-netvalue
+document.write("Your tax value = "+ taxamount + '</br>' + "Your tax size = " +tax+ '</br>' + "Your gross value = " + grossvalue +'</br>')
+    </script>
+
+</body>
+</html>
