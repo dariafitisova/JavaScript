@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dice rolling</title>
+	</head>
+<body>
+    <script type="text/javascript">
+var min = 1;
+var max = 6;
+var diceside = Math.round((Math.random()*(max-min))+min);
+	function rolldice()
+{ document.write ( "<img src = \"C:/Users/daria.fitisova/Desktop/JavaScript/Class-4/"+
+diceside+
+".png\" width = \"50\" height = \"50\" />");
+
+//document.writeln("<br><hr>Click on the refresh button to reload the page"); 
+}
+</script>
+<input type="button" value="Roll Dice" onclick="rolldice()">
+    </script>
+
+</body>
+</html>
